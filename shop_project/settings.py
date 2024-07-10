@@ -31,7 +31,7 @@ CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'gbshopdjango.pythonanywhere.com',
+    'NxtaSunstrike.pythonanywhere.com',
 ]
 
 
@@ -87,10 +87,10 @@ DATABASES = {
     "default": {
         "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "gbshopdjango$default",  # <your_username>$<your_database_name>
-        "USER": "gbshopdjango",  # <your_username>
+        "NAME": "NxtaSunstrike $default",  # <your_username>$<your_database_name>
+        "USER": "NxtaSunstrike",  # <your_username>
         "PASSWORD": os.getenv("MYSQL_PASSWORD"),
-        "HOST": "gbshopdjango.mysql.pythonanywhere-services.com",  #<your_mysql_hostname>
+        "HOST": "NxtaSunstrike.mysql.pythonanywhere-services.com",  #<your_mysql_hostname>
         "OPTIONS": {
             "init_command": "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             "charset": "utf8mb4",
